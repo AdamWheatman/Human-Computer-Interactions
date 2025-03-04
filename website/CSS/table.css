@@ -1,0 +1,65 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #979797;   
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #626262;   
+}
+
+/* Table Display */
+table{
+    overflow-y:scroll; 
+    overflow-x:auto; 
+    text-align: left;
+    width: 1357px;
+    display:block;  
+    border:3px solid black;
+    height: 100%;
+    max-height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    table-layout: fixed;
+}
+
+/* Table Headers */
+thead{
+    padding-bottom: 18px;
+    border-bottom:3px solid black;
+    padding: 2rem;
+    color: black;
+}
+
+/* Table Headings and Table Data */
+th, td{
+    padding-left: 1rem;
+    width: 500px;
+    line-height: 3.5;
+}
+
+/* Table Data */
+td{
+    line-height: 2.2;
+    color: #555;
+}
+
+/* Even Numbered Table Rows 
+(To Give A Zebra Pattern To The Table Data) */
+tr:nth-of-type(even){
+    background-color: #f8f6ff;
+}
+
+/* Go Back Button Custom Width */
+.go_back{
+    width: 10%;
+}
